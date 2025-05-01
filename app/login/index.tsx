@@ -10,7 +10,7 @@ export default function LoginPage() {
         // Corrected template string
         console.log(`Sending code to +62${phone}`);
         // Navigate to verify page or call API
-        // router.push('/login/verify'); 
+        router.push('/login/registrasi-akun'); 
     };
 
     return (
