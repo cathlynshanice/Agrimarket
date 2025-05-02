@@ -11,7 +11,7 @@ export default function ChooseRolePage() {
       {/* Petani */}
       <TouchableOpacity style={styles.card} onPress={() => router.push('/+not-found')}>
         {/* <Image source={require('../../../assets/image/farmer.png')} style={styles.image} /> */}
-        <Text style={styles.cardText}>Petani</Text>
+        <Text style={styles.cardText}>Petani!</Text>
       </TouchableOpacity>
 
       {/* Pengelolah */}
